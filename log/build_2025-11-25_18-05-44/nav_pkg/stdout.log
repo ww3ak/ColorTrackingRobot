@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/nav_pkg/nav_pkg.egg-info
+writing ../../build/nav_pkg/nav_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/nav_pkg/nav_pkg.egg-info/dependency_links.txt
+writing requirements to ../../build/nav_pkg/nav_pkg.egg-info/requires.txt
+writing top-level names to ../../build/nav_pkg/nav_pkg.egg-info/top_level.txt
+writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/simkh005/4551_proj_ws/build/nav_pkg/build
+creating /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib
+creating /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
+copying nav_pkg/__init__.py -> /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
+running install
+running install_lib
+creating /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+copying /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg/__init__.py -> /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+byte-compiling /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index
+creating /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index/resource_index
+creating /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index/resource_index/packages
+copying resource/nav_pkg -> /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/simkh005/4551_proj_ws/install/nav_pkg/share/nav_pkg
+running install_egg_info
+Copying ../../build/nav_pkg/nav_pkg.egg-info to /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/simkh005/4551_proj_ws/build/nav_pkg/install.log'

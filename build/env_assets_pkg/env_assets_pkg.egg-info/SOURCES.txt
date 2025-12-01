@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/env_assets_pkg/env_assets_pkg.egg-info/PKG-INFO
+../../build/env_assets_pkg/env_assets_pkg.egg-info/SOURCES.txt
+../../build/env_assets_pkg/env_assets_pkg.egg-info/dependency_links.txt
+../../build/env_assets_pkg/env_assets_pkg.egg-info/requires.txt
+../../build/env_assets_pkg/env_assets_pkg.egg-info/top_level.txt
+../../build/env_assets_pkg/env_assets_pkg.egg-info/zip-safe
+env_assets_pkg/__init__.py
+resource/env_assets_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
