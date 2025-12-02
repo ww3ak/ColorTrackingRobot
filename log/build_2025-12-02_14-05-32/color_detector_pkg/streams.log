@@ -1,0 +1,35 @@
+[1.287s] Invoking command in '/home/simkh005/4551_proj_ws/src/color_detector_pkg': PYTHONPATH=/home/simkh005/4551_proj_ws/build/color_detector_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simkh005/4551_proj_ws/install/color_detector_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_detector_pkg build --build-base /home/simkh005/4551_proj_ws/build/color_detector_pkg/build install --record /home/simkh005/4551_proj_ws/build/color_detector_pkg/install.log --single-version-externally-managed install_data
+[1.563s] running egg_info
+[1.563s] creating ../../build/color_detector_pkg/color_detector_pkg.egg-info
+[1.586s] writing ../../build/color_detector_pkg/color_detector_pkg.egg-info/PKG-INFO
+[1.586s] writing dependency_links to ../../build/color_detector_pkg/color_detector_pkg.egg-info/dependency_links.txt
+[1.587s] writing requirements to ../../build/color_detector_pkg/color_detector_pkg.egg-info/requires.txt
+[1.587s] writing top-level names to ../../build/color_detector_pkg/color_detector_pkg.egg-info/top_level.txt
+[1.587s] writing manifest file '../../build/color_detector_pkg/color_detector_pkg.egg-info/SOURCES.txt'
+[1.629s] reading manifest file '../../build/color_detector_pkg/color_detector_pkg.egg-info/SOURCES.txt'
+[1.629s] writing manifest file '../../build/color_detector_pkg/color_detector_pkg.egg-info/SOURCES.txt'
+[1.630s] running build
+[1.630s] running build_py
+[1.630s] creating /home/simkh005/4551_proj_ws/build/color_detector_pkg/build
+[1.631s] creating /home/simkh005/4551_proj_ws/build/color_detector_pkg/build/lib
+[1.631s] creating /home/simkh005/4551_proj_ws/build/color_detector_pkg/build/lib/color_detector_pkg
+[1.631s] copying color_detector_pkg/__init__.py -> /home/simkh005/4551_proj_ws/build/color_detector_pkg/build/lib/color_detector_pkg
+[1.631s] copying color_detector_pkg/webcam_node.py -> /home/simkh005/4551_proj_ws/build/color_detector_pkg/build/lib/color_detector_pkg
+[1.631s] running install
+[1.640s] running install_lib
+[1.659s] creating /home/simkh005/4551_proj_ws/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg
+[1.659s] copying /home/simkh005/4551_proj_ws/build/color_detector_pkg/build/lib/color_detector_pkg/__init__.py -> /home/simkh005/4551_proj_ws/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg
+[1.659s] copying /home/simkh005/4551_proj_ws/build/color_detector_pkg/build/lib/color_detector_pkg/webcam_node.py -> /home/simkh005/4551_proj_ws/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg
+[1.659s] byte-compiling /home/simkh005/4551_proj_ws/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg/__init__.py to __init__.cpython-312.pyc
+[1.660s] byte-compiling /home/simkh005/4551_proj_ws/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg/webcam_node.py to webcam_node.cpython-312.pyc
+[1.661s] running install_data
+[1.661s] creating /home/simkh005/4551_proj_ws/install/color_detector_pkg/share/ament_index
+[1.661s] creating /home/simkh005/4551_proj_ws/install/color_detector_pkg/share/ament_index/resource_index
+[1.662s] creating /home/simkh005/4551_proj_ws/install/color_detector_pkg/share/ament_index/resource_index/packages
+[1.662s] copying resource/color_detector_pkg -> /home/simkh005/4551_proj_ws/install/color_detector_pkg/share/ament_index/resource_index/packages
+[1.662s] copying package.xml -> /home/simkh005/4551_proj_ws/install/color_detector_pkg/share/color_detector_pkg
+[1.662s] running install_egg_info
+[1.690s] Copying ../../build/color_detector_pkg/color_detector_pkg.egg-info to /home/simkh005/4551_proj_ws/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg-0.0.0-py3.12.egg-info
+[1.690s] running install_scripts
+[1.824s] writing list of installed files to '/home/simkh005/4551_proj_ws/build/color_detector_pkg/install.log'
+[1.860s] Invoked command in '/home/simkh005/4551_proj_ws/src/color_detector_pkg' returned '0': PYTHONPATH=/home/simkh005/4551_proj_ws/build/color_detector_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simkh005/4551_proj_ws/install/color_detector_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_detector_pkg build --build-base /home/simkh005/4551_proj_ws/build/color_detector_pkg/build install --record /home/simkh005/4551_proj_ws/build/color_detector_pkg/install.log --single-version-externally-managed install_data

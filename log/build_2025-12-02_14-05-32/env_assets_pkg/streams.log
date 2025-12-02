@@ -1,0 +1,49 @@
+[1.286s] Invoking command in '/home/simkh005/4551_proj_ws/src/env_assets_pkg': PYTHONPATH=/home/simkh005/4551_proj_ws/build/env_assets_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simkh005/4551_proj_ws/install/env_assets_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/env_assets_pkg build --build-base /home/simkh005/4551_proj_ws/build/env_assets_pkg/build install --record /home/simkh005/4551_proj_ws/build/env_assets_pkg/install.log --single-version-externally-managed install_data
+[1.566s] running egg_info
+[1.566s] creating ../../build/env_assets_pkg/env_assets_pkg.egg-info
+[1.589s] writing ../../build/env_assets_pkg/env_assets_pkg.egg-info/PKG-INFO
+[1.590s] writing dependency_links to ../../build/env_assets_pkg/env_assets_pkg.egg-info/dependency_links.txt
+[1.590s] writing requirements to ../../build/env_assets_pkg/env_assets_pkg.egg-info/requires.txt
+[1.590s] writing top-level names to ../../build/env_assets_pkg/env_assets_pkg.egg-info/top_level.txt
+[1.590s] writing manifest file '../../build/env_assets_pkg/env_assets_pkg.egg-info/SOURCES.txt'
+[1.633s] reading manifest file '../../build/env_assets_pkg/env_assets_pkg.egg-info/SOURCES.txt'
+[1.634s] writing manifest file '../../build/env_assets_pkg/env_assets_pkg.egg-info/SOURCES.txt'
+[1.634s] running build
+[1.634s] running build_py
+[1.634s] creating /home/simkh005/4551_proj_ws/build/env_assets_pkg/build
+[1.634s] creating /home/simkh005/4551_proj_ws/build/env_assets_pkg/build/lib
+[1.635s] creating /home/simkh005/4551_proj_ws/build/env_assets_pkg/build/lib/env_assets_pkg
+[1.635s] copying env_assets_pkg/__init__.py -> /home/simkh005/4551_proj_ws/build/env_assets_pkg/build/lib/env_assets_pkg
+[1.635s] running install
+[1.640s] running install_lib
+[1.658s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg
+[1.659s] copying /home/simkh005/4551_proj_ws/build/env_assets_pkg/build/lib/env_assets_pkg/__init__.py -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg
+[1.660s] byte-compiling /home/simkh005/4551_proj_ws/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg/__init__.py to __init__.cpython-312.pyc
+[1.660s] running install_data
+[1.660s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/ament_index
+[1.660s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/ament_index/resource_index
+[1.662s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/ament_index/resource_index/packages
+[1.662s] copying resource/env_assets_pkg -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/ament_index/resource_index/packages
+[1.662s] copying package.xml -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg
+[1.663s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/launch
+[1.663s] copying launch/world.launch.py -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/launch
+[1.664s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/worlds
+[1.664s] copying worlds/color_goals.world -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/worlds
+[1.665s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models
+[1.666s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/red_goal
+[1.666s] copying models/red_goal/model.sdf -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/red_goal
+[1.666s] copying models/red_goal/model.config -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/red_goal
+[1.667s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/green_goal
+[1.667s] copying models/green_goal/model.sdf -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/green_goal
+[1.668s] copying models/green_goal/model.config -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/green_goal
+[1.668s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/blue_goal
+[1.669s] copying models/blue_goal/model.sdf -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/blue_goal
+[1.669s] copying models/blue_goal/model.config -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/blue_goal
+[1.670s] creating /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/yellow_goal
+[1.671s] copying models/yellow_goal/model.sdf -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/yellow_goal
+[1.671s] copying models/yellow_goal/model.config -> /home/simkh005/4551_proj_ws/install/env_assets_pkg/share/env_assets_pkg/models/yellow_goal
+[1.671s] running install_egg_info
+[1.691s] Copying ../../build/env_assets_pkg/env_assets_pkg.egg-info to /home/simkh005/4551_proj_ws/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg-0.0.0-py3.12.egg-info
+[1.691s] running install_scripts
+[1.819s] writing list of installed files to '/home/simkh005/4551_proj_ws/build/env_assets_pkg/install.log'
+[1.863s] Invoked command in '/home/simkh005/4551_proj_ws/src/env_assets_pkg' returned '0': PYTHONPATH=/home/simkh005/4551_proj_ws/build/env_assets_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simkh005/4551_proj_ws/install/env_assets_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/env_assets_pkg build --build-base /home/simkh005/4551_proj_ws/build/env_assets_pkg/build install --record /home/simkh005/4551_proj_ws/build/env_assets_pkg/install.log --single-version-externally-managed install_data
