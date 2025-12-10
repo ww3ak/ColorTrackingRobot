@@ -2,6 +2,8 @@
 """
 Simple webcam using OpenCV
 Use this command to run: python3 src/color_detector_pkg/color_detector_pkg/webcam_node.py
+This opens the webcam window. Not really necessary because color_perception_node.py already does this. We can keep this 
+just in case and delete it if we don't end up using it
 """
 
 import sys
