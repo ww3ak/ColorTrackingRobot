@@ -15,18 +15,15 @@ creating /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
 copying nav_pkg/pathfinding_node.py -> /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
 copying nav_pkg/goal_mng.py -> /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
 copying nav_pkg/__init__.py -> /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
-copying nav_pkg/spawn_robot.py -> /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
 running install
 running install_lib
 creating /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
 copying /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg/pathfinding_node.py -> /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
 copying /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg/goal_mng.py -> /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
 copying /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg/__init__.py -> /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
-copying /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg/spawn_robot.py -> /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
 byte-compiling /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/pathfinding_node.py to pathfinding_node.cpython-312.pyc
 byte-compiling /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/goal_mng.py to goal_mng.cpython-312.pyc
 byte-compiling /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/__init__.py to __init__.cpython-312.pyc
-byte-compiling /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/spawn_robot.py to spawn_robot.cpython-312.pyc
 running install_data
 creating /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index
 creating /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index/resource_index
