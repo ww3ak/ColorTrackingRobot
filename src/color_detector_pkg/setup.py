@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'color_perception_node = color_detector_pkg.color_perception_node:main',
+            'color_controller = color_detector_pkg.color_controller:main',
         ],
     },
 )
