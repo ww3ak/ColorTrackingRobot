@@ -8,7 +8,17 @@ setup.py
 ../../build/env_assets_pkg/env_assets_pkg.egg-info/top_level.txt
 ../../build/env_assets_pkg/env_assets_pkg.egg-info/zip-safe
 env_assets_pkg/__init__.py
+launch/world.launch.py
+models/blue_goal/model.config
+models/blue_goal/model.sdf
+models/green_goal/model.config
+models/green_goal/model.sdf
+models/red_goal/model.config
+models/red_goal/model.sdf
+models/yellow_goal/model.config
+models/yellow_goal/model.sdf
 resource/env_assets_pkg
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+worlds/color_goals.world

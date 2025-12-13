@@ -1,8 +1,7 @@
 Metadata-Version: 2.1
 Name: env-assets-pkg
 Version: 0.0.0
-Summary: TODO: Package description
-Maintainer: simkh005
-Maintainer-email: simkh005@todo.todo
-License: TODO: License declaration
-Provides-Extra: test
+Summary: Environment assets for TurtleBot project
+Maintainer: Sabrina
+Maintainer-email: your_email@example.com
+License: MIT

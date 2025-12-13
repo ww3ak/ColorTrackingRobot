@@ -1,0 +1,40 @@
+[2.421s] Invoking command in '/home/simkh005/4551_proj_ws/src/nav_pkg': PYTHONPATH=/home/simkh005/4551_proj_ws/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_pkg build --build-base /home/simkh005/4551_proj_ws/build/nav_pkg/build install --record /home/simkh005/4551_proj_ws/build/nav_pkg/install.log --single-version-externally-managed install_data
+[2.807s] running egg_info
+[2.807s] creating ../../build/nav_pkg/nav_pkg.egg-info
+[2.830s] writing ../../build/nav_pkg/nav_pkg.egg-info/PKG-INFO
+[2.830s] writing dependency_links to ../../build/nav_pkg/nav_pkg.egg-info/dependency_links.txt
+[2.831s] writing requirements to ../../build/nav_pkg/nav_pkg.egg-info/requires.txt
+[2.831s] writing top-level names to ../../build/nav_pkg/nav_pkg.egg-info/top_level.txt
+[2.831s] writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+[2.895s] reading manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+[2.896s] writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+[2.896s] running build
+[2.896s] running build_py
+[2.896s] creating /home/simkh005/4551_proj_ws/build/nav_pkg/build
+[2.897s] creating /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib
+[2.898s] creating /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
+[2.899s] copying nav_pkg/pathfinding_node.py -> /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
+[2.899s] copying nav_pkg/goal_mng.py -> /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
+[2.899s] copying nav_pkg/__init__.py -> /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg
+[2.899s] running install
+[2.910s] running install_lib
+[2.932s] creating /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+[2.933s] copying /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg/pathfinding_node.py -> /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+[2.934s] copying /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg/goal_mng.py -> /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+[2.935s] copying /home/simkh005/4551_proj_ws/build/nav_pkg/build/lib/nav_pkg/__init__.py -> /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+[2.935s] byte-compiling /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/pathfinding_node.py to pathfinding_node.cpython-312.pyc
+[2.937s] byte-compiling /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/goal_mng.py to goal_mng.cpython-312.pyc
+[2.937s] byte-compiling /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/__init__.py to __init__.cpython-312.pyc
+[2.937s] running install_data
+[2.938s] creating /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index
+[2.938s] creating /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index/resource_index
+[2.938s] creating /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index/resource_index/packages
+[2.938s] copying resource/nav_pkg -> /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index/resource_index/packages
+[2.938s] copying package.xml -> /home/simkh005/4551_proj_ws/install/nav_pkg/share/nav_pkg
+[2.938s] creating /home/simkh005/4551_proj_ws/install/nav_pkg/share/nav_pkg/launch
+[2.939s] copying launch/spawn_tb3.launch.py -> /home/simkh005/4551_proj_ws/install/nav_pkg/share/nav_pkg/launch
+[2.939s] running install_egg_info
+[2.966s] Copying ../../build/nav_pkg/nav_pkg.egg-info to /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg-0.0.0-py3.12.egg-info
+[2.968s] running install_scripts
+[3.150s] writing list of installed files to '/home/simkh005/4551_proj_ws/build/nav_pkg/install.log'
+[3.214s] Invoked command in '/home/simkh005/4551_proj_ws/src/nav_pkg' returned '0': PYTHONPATH=/home/simkh005/4551_proj_ws/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_pkg build --build-base /home/simkh005/4551_proj_ws/build/nav_pkg/build install --record /home/simkh005/4551_proj_ws/build/nav_pkg/install.log --single-version-externally-managed install_data

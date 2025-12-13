@@ -7,7 +7,10 @@ setup.py
 ../../build/nav_pkg/nav_pkg.egg-info/requires.txt
 ../../build/nav_pkg/nav_pkg.egg-info/top_level.txt
 ../../build/nav_pkg/nav_pkg.egg-info/zip-safe
+launch/spawn_tb3.launch.py
 nav_pkg/__init__.py
+nav_pkg/goal_mng.py
+nav_pkg/pathfinding_node.py
 resource/nav_pkg
 test/test_copyright.py
 test/test_flake8.py

@@ -1,7 +1,12 @@
+/home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/pathfinding_node.py
+/home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/goal_mng.py
 /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/__init__.py
+/home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/__pycache__/pathfinding_node.cpython-312.pyc
+/home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/__pycache__/goal_mng.cpython-312.pyc
 /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/__pycache__/__init__.cpython-312.pyc
 /home/simkh005/4551_proj_ws/install/nav_pkg/share/ament_index/resource_index/packages/nav_pkg
 /home/simkh005/4551_proj_ws/install/nav_pkg/share/nav_pkg/package.xml
+/home/simkh005/4551_proj_ws/install/nav_pkg/share/nav_pkg/launch/spawn_tb3.launch.py
 /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg-0.0.0-py3.12.egg-info/PKG-INFO
 /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg-0.0.0-py3.12.egg-info/zip-safe
 /home/simkh005/4551_proj_ws/install/nav_pkg/lib/python3.12/site-packages/nav_pkg-0.0.0-py3.12.egg-info/requires.txt
