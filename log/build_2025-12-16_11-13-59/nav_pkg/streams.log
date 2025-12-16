@@ -1,0 +1,39 @@
+[1.931s] Invoking command in '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/src/nav_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_pkg build --build-base /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build install --record /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/install.log --single-version-externally-managed install_data
+[2.315s] running egg_info
+[2.317s] creating ../../build/nav_pkg/nav_pkg.egg-info
+[2.348s] writing ../../build/nav_pkg/nav_pkg.egg-info/PKG-INFO
+[2.356s] writing dependency_links to ../../build/nav_pkg/nav_pkg.egg-info/dependency_links.txt
+[2.363s] writing requirements to ../../build/nav_pkg/nav_pkg.egg-info/requires.txt
+[2.363s] writing top-level names to ../../build/nav_pkg/nav_pkg.egg-info/top_level.txt
+[2.370s] writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+[2.579s] writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+[2.583s] running build
+[2.583s] running build_py
+[2.584s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build
+[2.585s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build/lib
+[2.586s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build/lib/nav_pkg
+[2.590s] copying nav_pkg/pathfinding_node.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build/lib/nav_pkg
+[2.597s] copying nav_pkg/goal_mng.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build/lib/nav_pkg
+[2.602s] copying nav_pkg/__init__.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build/lib/nav_pkg
+[2.608s] running install
+[2.615s] running install_lib
+[2.651s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+[2.652s] copying /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build/lib/nav_pkg/pathfinding_node.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+[2.658s] copying /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build/lib/nav_pkg/goal_mng.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+[2.663s] copying /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build/lib/nav_pkg/__init__.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg
+[2.676s] byte-compiling /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/pathfinding_node.py to pathfinding_node.cpython-312.pyc
+[2.689s] byte-compiling /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/goal_mng.py to goal_mng.cpython-312.pyc
+[2.712s] byte-compiling /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg/__init__.py to __init__.cpython-312.pyc
+[2.720s] running install_data
+[2.721s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/share/ament_index
+[2.721s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/share/ament_index/resource_index
+[2.723s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/share/ament_index/resource_index/packages
+[2.727s] copying resource/nav_pkg -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/share/ament_index/resource_index/packages
+[2.739s] copying package.xml -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/share/nav_pkg
+[2.749s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/share/nav_pkg/launch
+[2.749s] copying launch/spawn_tb3.launch.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/share/nav_pkg/launch
+[2.753s] running install_egg_info
+[2.787s] Copying ../../build/nav_pkg/nav_pkg.egg-info to /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg-0.0.0-py3.12.egg-info
+[2.849s] running install_scripts
+[3.086s] writing list of installed files to '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/install.log'
+[3.127s] Invoked command in '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/src/nav_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_pkg build --build-base /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build install --record /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/install.log --single-version-externally-managed install_data

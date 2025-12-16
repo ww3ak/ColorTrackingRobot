@@ -4,7 +4,6 @@ from launch import LaunchDescription
 from launch.actions import ExecuteProcess, IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
-from launch_ros.actions import Node
 
 def generate_launch_description():
     env_assets_dir = get_package_share_directory('env_assets_pkg')
@@ -39,30 +38,8 @@ def generate_launch_description():
         }.items()
     )
 
-    detect_color = Node(
-        package='color_detector_pkg',
-        executable='color_perception_node',
-        name='detect_color',
-        output='screen'
-    )
-    
-    motion_color = Node(
-        package='color_detector_pkg',
-        executable='color_controller',
-        name='color_move',
-        output='screen',
-        parameters=[{
-            'color_topic': '/color_detected',
-            'cmd_topic': '/cmd_vel',
-            'max_linear_speed': 0.5,
-            'angular_gain': 0.0025
-        }]
-    )
-    
     # Build launch description
     return LaunchDescription([
         gazebo_cmd,
         spawn_tb3_cmd,
-        detect_color,
-        motion_color
     ])

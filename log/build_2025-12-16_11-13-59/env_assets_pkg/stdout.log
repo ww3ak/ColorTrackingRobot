@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/env_assets_pkg/env_assets_pkg.egg-info
+writing ../../build/env_assets_pkg/env_assets_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/env_assets_pkg/env_assets_pkg.egg-info/dependency_links.txt
+writing requirements to ../../build/env_assets_pkg/env_assets_pkg.egg-info/requires.txt
+writing top-level names to ../../build/env_assets_pkg/env_assets_pkg.egg-info/top_level.txt
+writing manifest file '../../build/env_assets_pkg/env_assets_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/env_assets_pkg/env_assets_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build/lib
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build/lib/env_assets_pkg
+copying env_assets_pkg/__init__.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build/lib/env_assets_pkg
+running install
+running install_lib
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg
+copying /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build/lib/env_assets_pkg/__init__.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg
+byte-compiling /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/ament_index
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/ament_index/resource_index
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/ament_index/resource_index/packages
+copying resource/env_assets_pkg -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/launch
+copying launch/world.launch.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/launch
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/worlds
+copying worlds/color_goals.world -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/worlds
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/red_goal
+copying models/red_goal/model.sdf -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/red_goal
+copying models/red_goal/model.config -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/red_goal
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/green_goal
+copying models/green_goal/model.sdf -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/green_goal
+copying models/green_goal/model.config -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/green_goal
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/blue_goal
+copying models/blue_goal/model.sdf -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/blue_goal
+copying models/blue_goal/model.config -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/blue_goal
+creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/yellow_goal
+copying models/yellow_goal/model.sdf -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/yellow_goal
+copying models/yellow_goal/model.config -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/yellow_goal
+running install_egg_info
+Copying ../../build/env_assets_pkg/env_assets_pkg.egg-info to /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/install.log'
