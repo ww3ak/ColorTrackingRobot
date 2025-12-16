@@ -9,10 +9,10 @@ class ColorController(Node):
     def __init__(self):
         super().__init__('color_controller')
 
-        self.declare_parameter('max_linear_speed', 0.2)
+        self.declare_parameter('max_linear_speed', 0.5)
         self.declare_parameter('angular_gain', 0.4)
         self.declare_parameter('turn_time', 0.85)
-        self.declare_parameter('run_time', 10.0)
+        self.declare_parameter('run_time', 20.0)
         self.declare_parameter('cmd_topic', '/cmd_vel')
         self.declare_parameter('color_topic', '/color_detected')
 
@@ -64,7 +64,7 @@ class ColorController(Node):
         twist_stamped.header.frame_id = "base_link"
 
         current_time = self.get_clock().now().nanoseconds/1e9
-        delta = (self.get_clock().now() - self.start_time).nanoseconds/1e9
+        delta = (self.get_clock().now() - self.time_start).nanoseconds/1e9
 
         if delta >= self.run_time:
             twist_stamped.twist.linear.x = 0.0
