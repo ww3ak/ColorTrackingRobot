@@ -45,95 +45,63 @@ class DetectsColor(Node):
 
 
     def run(self):
-        while rclpy.ok():
-            ret, frame = self.cap.read()
-            color_detected = self.color_detected(frame)
+            while rclpy.ok():
+                ret, frame = self.cap.read()
+                if not ret:
+                    continue
 
+                color_detected = self.color_detected(frame)
 
-            if color_detected:
-                self.last_color = color_detected
-                msg = String()
-                msg.data = color_detected
-                self.color_pub.publish(msg)
-                print(f"Published detected color: {color_detected}")
-            elif self.last_color:
-                msg = String()
-                msg.data = self.last_color
-                self.color_pub.publish(msg)
+                # Only publish the first detected color once
+                if self.last_color is None and color_detected is not None:
+                    self.last_color = color_detected
+                    msg = String()
+                    msg.data = color_detected
+                    self.color_pub.publish(msg)
+                    print(f"Published detected color: {color_detected}")
 
-            cv2.imshow('Frame', frame)
+                cv2.imshow('Frame', frame)
+                if cv2.waitKey(1) & 0xFF == ord('q'):
+                    break
 
-            if cv2.waitKey(1) & 0xFF == ord('q'):
-                break
-        self.cap.release()
-        cv2.destroyAllWindows()
+            self.cap.release()
+            cv2.destroyAllWindows()
   
     def color_detected(self, frame):
-        #ret, frame = cap.read()
-        color_detected = None
-        width = int(self.cap.get(3))
-        height = int(self.cap.get(4))
+            best_color = None
+            max_area = 0
+            hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
+            # Define color masks
+            masks = {
+                'blue': cv2.inRange(hsv, np.array([90,50,50]), np.array([130,255,255])),
+                'green': cv2.inRange(hsv, np.array([40,50,50]), np.array([80,255,255])),
+                'yellow': cv2.inRange(hsv, np.array([20,100,100]), np.array([30,255,255])),
+                'red': cv2.bitwise_or(
+                    cv2.inRange(hsv, np.array([0,160,160]), np.array([3,255,255])),
+                    cv2.inRange(hsv, np.array([170,150,150]), np.array([180,255,255]))
+                )
+            }
 
-        # Convert BGR to HSV
-        hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+            MIN_AREA = 3000  # Ignore small blobs
 
+            for color, mask in masks.items():
+                contours,_ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+                for c in contours:
+                    area = cv2.contourArea(c)
+                    if area < MIN_AREA:
+                        continue
 
-        # Colors we want to extract
-        lower_blue = np.array([90, 50, 50])
-        upper_blue = np.array([130, 255, 255])
+                    if area > max_area:
+                        max_area = area
+                        best_color = color
 
+                    x, y, w, h = cv2.boundingRect(c)
+                    cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
+                    cv2.putText(frame, color, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
 
-        lower_yellow = np.array([20, 100, 100])
-        upper_yellow = np.array([30, 255, 255])
- 
-
-        lower_green = np.array([40, 50, 50])
-        upper_green = np.array([80, 255, 255])
-
-
-        # NOTE we are using a very saturad red, otherwise skin color will pick up
-        lower_red1 = np.array([0, 160, 160])
-        upper_red1 = np.array([3, 255, 255])
-        lower_red2 = np.array([170, 150, 150])
-        upper_red2 = np.array([180, 255, 255])
-
-
-        mask_blue = cv2.inRange(hsv, lower_blue, upper_blue)
-        mask_green = cv2.inRange(hsv, lower_green, upper_green)
-        mask_yellow = cv2.inRange(hsv, lower_yellow, upper_yellow)
-        mask_red1 = cv2.inRange(hsv, lower_red1, upper_red1)
-        mask_red2 = cv2.inRange(hsv, lower_red2, upper_red2)
-        mask_red = cv2.bitwise_or(mask_red1, mask_red2)
-
-
-        colors = {
-            'blue': mask_blue,
-            'green': mask_green,
-            'yellow': mask_yellow,
-            'red': mask_red # This is buggy. Need to fix threshold
-        }
-
-
-        for color, (mask) in colors.items():
-            # Need to use contour to correctly box the detected color areas
-            contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-            
-            for contour in contours:
-                x, y, w, h = cv2.boundingRect(contour)
-
-
-                # filters out small areas
-                if w * h < 500:
-                    continue
- 
-
-                # Draws the boxes
-                cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
-                cv2.putText(frame, color, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2) # Puts the color name. Can remove this if not needed, helpful for debugging
-                color_detected = color
-        return color_detected
-      
+            return best_color
+        
 def main(args=None):
     rclpy.init(args=args)
     node = DetectsColor()
@@ -144,3 +112,4 @@ def main(args=None):
 
 if __name__ == "__main__":
     main()
+

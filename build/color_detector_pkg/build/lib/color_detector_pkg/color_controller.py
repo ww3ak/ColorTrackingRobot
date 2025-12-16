@@ -9,10 +9,10 @@ class ColorController(Node):
     def __init__(self):
         super().__init__('color_controller')
 
-        self.declare_parameter('max_linear_speed', 0.5)
+        self.declare_parameter('max_linear_speed', 0.2)
         self.declare_parameter('angular_gain', 0.4)
-        self.declare_parameter('turn_time', 0.85)
-        self.declare_parameter('run_time', 20.0)
+        self.declare_parameter('turn_time', 1.0)
+        self.declare_parameter('run_time', 50.0)
         self.declare_parameter('cmd_topic', '/cmd_vel')
         self.declare_parameter('color_topic', '/color_detected')
 
@@ -48,7 +48,7 @@ class ColorController(Node):
 
     def color_callback(self, msg: String):
         color = msg.data.strip().lower()
-        self.get_logger().info(f'>>> Received color: "{color}"')
+        #self.get_logger().info(f'>>> Received color: "{color}"')
         if color in self.map and color != self.last_color:
             self.current_color = color
             self.last_color = color

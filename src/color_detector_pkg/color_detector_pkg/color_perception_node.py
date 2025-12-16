@@ -45,28 +45,27 @@ class DetectsColor(Node):
 
 
     def run(self):
-        while rclpy.ok():
-            ret, frame = self.cap.read()
-            color_detected = self.color_detected(frame)
+            while rclpy.ok():
+                ret, frame = self.cap.read()
+                if not ret:
+                    continue
 
+                color_detected = self.color_detected(frame)
 
-            if color_detected:
-                self.last_color = color_detected
-                msg = String()
-                msg.data = color_detected
-                self.color_pub.publish(msg)
-                print(f"Published detected color: {color_detected}")
-            elif self.last_color:
-                msg = String()
-                msg.data = self.last_color
-                self.color_pub.publish(msg)
+                # Only publish the first detected color once
+                if self.last_color is None and color_detected is not None:
+                    self.last_color = color_detected
+                    msg = String()
+                    msg.data = color_detected
+                    self.color_pub.publish(msg)
+                    print(f"Published detected color: {color_detected}")
 
-            cv2.imshow('Frame', frame)
+                cv2.imshow('Frame', frame)
+                if cv2.waitKey(1) & 0xFF == ord('q'):
+                    break
 
-            if cv2.waitKey(1) & 0xFF == ord('q'):
-                break
-        self.cap.release()
-        cv2.destroyAllWindows()
+            self.cap.release()
+            cv2.destroyAllWindows()
   
     def color_detected(self, frame):
         #ret, frame = cap.read()
@@ -124,7 +123,7 @@ class DetectsColor(Node):
 
 
                 # filters out small areas
-                if w * h < 500:
+                if w * h < 1000:
                     continue
  
 
@@ -144,3 +143,4 @@ def main(args=None):
 
 if __name__ == "__main__":
     main()
+

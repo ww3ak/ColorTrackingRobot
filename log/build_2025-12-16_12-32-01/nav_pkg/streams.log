@@ -1,0 +1,18 @@
+[5.011s] Invoking command in '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/src/nav_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_pkg build --build-base /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build install --record /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/install.log --single-version-externally-managed install_data
+[6.061s] running egg_info
+[6.139s] writing ../../build/nav_pkg/nav_pkg.egg-info/PKG-INFO
+[6.145s] writing dependency_links to ../../build/nav_pkg/nav_pkg.egg-info/dependency_links.txt
+[6.153s] writing requirements to ../../build/nav_pkg/nav_pkg.egg-info/requires.txt
+[6.156s] writing top-level names to ../../build/nav_pkg/nav_pkg.egg-info/top_level.txt
+[7.133s] writing manifest file '../../build/nav_pkg/nav_pkg.egg-info/SOURCES.txt'
+[7.137s] running build
+[7.138s] running build_py
+[7.141s] running install
+[7.158s] running install_lib
+[7.332s] running install_data
+[7.332s] running install_egg_info
+[7.433s] removing '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[7.454s] Copying ../../build/nav_pkg/nav_pkg.egg-info to /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages/nav_pkg-0.0.0-py3.12.egg-info
+[7.537s] running install_scripts
+[8.126s] writing list of installed files to '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/install.log'
+[8.300s] Invoked command in '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/src/nav_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/nav_pkg/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_pkg build --build-base /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/build install --record /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/nav_pkg/install.log --single-version-externally-managed install_data

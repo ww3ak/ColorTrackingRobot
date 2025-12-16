@@ -1,0 +1,48 @@
+[3.812s] Invoking command in '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/src/env_assets_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/env_assets_pkg build --build-base /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build install --record /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/install.log --single-version-externally-managed install_data
+[4.592s] running egg_info
+[4.594s] creating ../../build/env_assets_pkg/env_assets_pkg.egg-info
+[4.659s] writing ../../build/env_assets_pkg/env_assets_pkg.egg-info/PKG-INFO
+[4.669s] writing dependency_links to ../../build/env_assets_pkg/env_assets_pkg.egg-info/dependency_links.txt
+[4.677s] writing requirements to ../../build/env_assets_pkg/env_assets_pkg.egg-info/requires.txt
+[4.679s] writing top-level names to ../../build/env_assets_pkg/env_assets_pkg.egg-info/top_level.txt
+[4.684s] writing manifest file '../../build/env_assets_pkg/env_assets_pkg.egg-info/SOURCES.txt'
+[5.452s] writing manifest file '../../build/env_assets_pkg/env_assets_pkg.egg-info/SOURCES.txt'
+[5.455s] running build
+[5.455s] running build_py
+[5.457s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build
+[5.457s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build/lib
+[5.459s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build/lib/env_assets_pkg
+[5.462s] copying env_assets_pkg/__init__.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build/lib/env_assets_pkg
+[5.468s] running install
+[5.478s] running install_lib
+[5.546s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg
+[5.549s] copying /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build/lib/env_assets_pkg/__init__.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg
+[5.557s] byte-compiling /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg/__init__.py to __init__.cpython-312.pyc
+[5.566s] running install_data
+[5.570s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/ament_index
+[5.571s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/ament_index/resource_index
+[5.571s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/ament_index/resource_index/packages
+[5.576s] copying resource/env_assets_pkg -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/ament_index/resource_index/packages
+[5.583s] copying package.xml -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg
+[5.591s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/launch
+[5.595s] copying launch/world.launch.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/launch
+[5.602s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/worlds
+[5.606s] copying worlds/color_goals.world -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/worlds
+[5.614s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models
+[5.615s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/red_goal
+[5.619s] copying models/red_goal/model.sdf -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/red_goal
+[5.628s] copying models/red_goal/model.config -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/red_goal
+[5.637s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/green_goal
+[5.642s] copying models/green_goal/model.sdf -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/green_goal
+[5.650s] copying models/green_goal/model.config -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/green_goal
+[5.658s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/blue_goal
+[5.663s] copying models/blue_goal/model.sdf -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/blue_goal
+[5.671s] copying models/blue_goal/model.config -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/blue_goal
+[5.680s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/yellow_goal
+[5.682s] copying models/yellow_goal/model.sdf -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/yellow_goal
+[5.693s] copying models/yellow_goal/model.config -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/share/env_assets_pkg/models/yellow_goal
+[5.700s] running install_egg_info
+[5.766s] Copying ../../build/env_assets_pkg/env_assets_pkg.egg-info to /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages/env_assets_pkg-0.0.0-py3.12.egg-info
+[5.819s] running install_scripts
+[6.239s] writing list of installed files to '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/install.log'
+[6.418s] Invoked command in '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/src/env_assets_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/env_assets_pkg/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/env_assets_pkg build --build-base /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/build install --record /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/env_assets_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,45 @@
+[3.607s] Invoking command in '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/src/color_detector_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_detector_pkg build --build-base /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build install --record /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/install.log --single-version-externally-managed install_data
+[4.386s] running egg_info
+[4.388s] creating ../../build/color_detector_pkg/color_detector_pkg.egg-info
+[4.450s] writing ../../build/color_detector_pkg/color_detector_pkg.egg-info/PKG-INFO
+[4.458s] writing dependency_links to ../../build/color_detector_pkg/color_detector_pkg.egg-info/dependency_links.txt
+[4.464s] writing entry points to ../../build/color_detector_pkg/color_detector_pkg.egg-info/entry_points.txt
+[4.469s] writing requirements to ../../build/color_detector_pkg/color_detector_pkg.egg-info/requires.txt
+[4.471s] writing top-level names to ../../build/color_detector_pkg/color_detector_pkg.egg-info/top_level.txt
+[4.476s] writing manifest file '../../build/color_detector_pkg/color_detector_pkg.egg-info/SOURCES.txt'
+[5.357s] writing manifest file '../../build/color_detector_pkg/color_detector_pkg.egg-info/SOURCES.txt'
+[5.361s] running build
+[5.362s] running build_py
+[5.365s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build
+[5.366s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib
+[5.368s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib/color_detector_pkg
+[5.373s] copying color_detector_pkg/color_controller.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib/color_detector_pkg
+[5.375s] copying color_detector_pkg/webcam_node.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib/color_detector_pkg
+[5.382s] copying color_detector_pkg/color_perception_node.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib/color_detector_pkg
+[5.389s] copying color_detector_pkg/__init__.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib/color_detector_pkg
+[5.398s] running install
+[5.405s] running install_lib
+[5.469s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg
+[5.471s] copying /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib/color_detector_pkg/webcam_node.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg
+[5.478s] copying /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib/color_detector_pkg/color_perception_node.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg
+[5.486s] copying /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib/color_detector_pkg/color_controller.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg
+[5.496s] copying /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build/lib/color_detector_pkg/__init__.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg
+[5.504s] byte-compiling /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg/webcam_node.py to webcam_node.cpython-312.pyc
+[5.517s] byte-compiling /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg/color_perception_node.py to color_perception_node.cpython-312.pyc
+[5.528s] byte-compiling /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg/color_controller.py to color_controller.cpython-312.pyc
+[5.538s] byte-compiling /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg/__init__.py to __init__.cpython-312.pyc
+[5.546s] running install_data
+[5.547s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/share/ament_index
+[5.548s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/share/ament_index/resource_index
+[5.550s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/share/ament_index/resource_index/packages
+[5.553s] copying resource/color_detector_pkg -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/share/ament_index/resource_index/packages
+[5.562s] copying package.xml -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/share/color_detector_pkg
+[5.569s] creating /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/share/color_detector_pkg/launch
+[5.572s] copying launch/color_detector.launch.py -> /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/share/color_detector_pkg/launch
+[5.580s] running install_egg_info
+[5.645s] Copying ../../build/color_detector_pkg/color_detector_pkg.egg-info to /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages/color_detector_pkg-0.0.0-py3.12.egg-info
+[5.725s] running install_scripts
+[6.150s] Installing color_controller script to /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/color_detector_pkg
+[6.159s] Installing color_perception_node script to /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/color_detector_pkg
+[6.170s] writing list of installed files to '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/install.log'
+[6.331s] Invoked command in '/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/src/color_detector_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killi167/CSCI4551 Final Project/ColorTrackingRobot/install/color_detector_pkg/lib/python3.12/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_detector_pkg build --build-base /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/build install --record /home/killi167/CSCI4551 Final Project/ColorTrackingRobot/build/color_detector_pkg/install.log --single-version-externally-managed install_data
