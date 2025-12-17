@@ -22,7 +22,7 @@ CSCI 4511 – Robotics
 	```
 5. Run the program using the launch file:
 	```bash
-	ros2 launch ros2 launch env_assets_pkg world.launch.py
+	ros2 launch env_assets_pkg world.launch.py
 	```
 
 ## Expected Output
@@ -41,6 +41,11 @@ After running the program the following output is expected:
 
 ### Could not open camera
 1. Unplug camera and replug it back in.
+
+### Camera can not be found/detected
+If you are SSH into walter library, this will not work. Walter libraries do not have webcameras integrated. You would have to
+physically go to walter library and bring your own web camera to plug in.
+Otherwise, if you have ros2 locally installed with a working webcam, then that will also work.
 
 ### More than one robot is spawned in the gazebo world
 1. Shut down all processes using the commands bash ```pkill -9 -f gazebo```  ```pkill -9 -f ros2```
